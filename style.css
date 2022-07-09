@@ -1,0 +1,63 @@
+body{
+    background-color: 	#FFB6C1;
+}
+.timer-content{
+    width:30%;
+    margin: 0 auto;
+}
+
+.header-title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+header{
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.timer-container{
+    background-color: rgba(255,255,255,0.1);
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.tab-list{
+    text-align: center;
+}
+
+.tab-item{
+    display: inline-block;
+    font-size: 12px;
+    color:white;
+    padding: 7px;
+}
+.tab-item.active{
+    background-color: black;
+}
+.tab-item-content{
+    display: none;
+    text-align: center;
+    
+
+}
+
+.time{
+    font-size: 55px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tab-item-content.active{
+    display:block;
+}
+
+button{
+    padding:10px 35px;
+}
